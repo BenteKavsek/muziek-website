@@ -1,0 +1,128 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --dark-blue: #082032;
+    --light-blue: #2C394B;
+    --black: rgb(15, 15, 15);
+}
+
+html{
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+.header{
+    min-height: 9.8rem;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    padding: 2rem 17rem;
+    background-color: var(--light-blue);
+    color: #ffffff;
+}
+
+.nav figure{
+    color: white;
+    font-size: 5rem;
+}
+
+.navmenu{
+    list-style: none;
+    display: flex;
+    gap: 6rem;
+    font-size: 2.4rem;
+}
+
+.zoekFunctie{
+    padding: 1rem;
+    width: 15%;
+    border-radius: 5px;
+    border: none;
+    color: black;
+}
+
+.zoekFunctie::placeholder{
+    color: var(--light-blue);
+}
+
+.zoekFunctie:focus{
+    border: none;
+}
+
+.zoekFunctie:focus{
+    outline: none;
+}
+
+body{
+    background-color: var(--dark-blue);
+}
+
+main{
+    padding: 2rem 15rem;
+    color: white;
+}
+
+.overzichtPagina{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    padding-top: 6rem;
+}
+
+.singel{
+    list-style: none;
+    padding: 4rem 2rem;
+    width: 23%;
+    background-color: var(--black);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.singel .cover{
+    object-fit: contain;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.singel div{
+    display: flex;
+    justify-content: space-between;
+    color: #5A5A5A;
+}
+
+.singel .titel{
+    font-size: 2.6rem;
+    font-weight: 500;
+    margin: 1rem 0;        
+}
+
+.titel{
+    color: white;
+    text-decoration: none;
+}
+
+.singel .artiest{
+    font-size: 2rem;
+}
+
+.singel div, .singel .titel{
+    padding: 0 2rem;
+}
+
+.singel .genre{
+    height: 100%;
+    font-size: 2rem;
+    position: relative;
+    bottom: 0;
+}

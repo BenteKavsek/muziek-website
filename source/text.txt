@@ -1,0 +1,2 @@
+define om vaste variable te maken (voor bd naam en ww)
+define naam in hoofdletters zodat je weet dat het gedefined is
