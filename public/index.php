@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/81350521ed.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/style.css">
+    <script src="search.js" defer></script>
     <title>Muziek website</title>
 </head>
 <body>
