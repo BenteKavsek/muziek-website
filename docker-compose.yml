@@ -5,7 +5,7 @@ services:
 
   # PHP FPM Service
   php:
-    container_name: php
+    container_name: php2
     build:
       dockerfile: ./docker/php/dockerfile
       context: .
@@ -16,7 +16,7 @@ services:
 
   # Nginx Service
   nginx:
-    container_name: web
+    container_name: web2
     image: nginx:latest
     ports:
       - 8080:80
@@ -30,7 +30,7 @@ services:
 
   # MariaDB Service
   mariadb:
-    container_name: db
+    container_name: db2
     image: mariadb:latest
     environment:
       MYSQL_DATABASE: voorbeeld_db

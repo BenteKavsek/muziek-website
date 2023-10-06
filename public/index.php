@@ -19,7 +19,6 @@
         <ul class="overzichtPagina">
 
         <?php
-            require '../source/config.php';
             require '../source/card.php';
         ?>
  

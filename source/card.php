@@ -1,7 +1,7 @@
 <?php
 
+include ('connect.php');
 
-include ('config.php');
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
@@ -17,7 +17,5 @@ if ($result->num_rows > 0) {
       
     }
   
-  } else {
-    echo "0 results";
   }
 // ?>

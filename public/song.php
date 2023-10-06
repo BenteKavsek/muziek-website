@@ -1,9 +1,5 @@
 <!DOCTYPE html>
 
-<?php
-    require '../source/config.php';
-?>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -23,7 +19,7 @@
         <ul class="overzichtPagina">
 
         <?php
-            require '../source/config.php';
+            require '../source/indivSong.php';
         ?>
  
         </ul>
